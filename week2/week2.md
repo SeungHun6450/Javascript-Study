@@ -219,7 +219,7 @@
     - 중첩 함수 : 함수 몸체 내부에서 정의한 함수 ex) inner()
     - 외부 함수 : 중첩 함수를 포함하는 함수 ex) outer()
   - 스코프 체인은 **스코프가 계층적으로 연결된 것**을 의미
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f3a5e44-ef14-4ca6-bdbe-b63b228a2d6d/01393536-06f4-4b00-a5dc-72861df57fcd/Untitled.png)
+  - ![Untitled (9)](https://github.com/user-attachments/assets/1e69506b-4e47-4728-8c85-db3d1dabc761)
   - 스코프 체인은 물리적인 실체로 존재
     - js엔진은 코드 실행에 앞서 위의 그림과 유사한 자료구조인 렉시컬 환경을 실제로 생성
     - 변수 선언 실행 → 식별자가 렉시컬 환경에 key로 등록 → 변수 할당이 발생 → 자료구조의 변수 식별자에 해당하는 값을 변경
@@ -420,7 +420,8 @@ console.log(x); // 10
       // 변수 선언은 런 타임 이전에 js엔진에 의해 암묵적으로 실행
       var foo;
       ```
-      ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f3a5e44-ef14-4ca6-bdbe-b63b228a2d6d/09358b93-c4d3-4b5a-98de-6c37fa41ee41/Untitled.png)
+      ![Untitled (10)](https://github.com/user-attachments/assets/42f93ad3-69c3-4d5a-983f-b03ea2acf82a)
+
 - **let 키워드**
   - 변수 중복 선언 금지
   - 블록 레벨 스코프
@@ -447,7 +448,8 @@ console.log(x); // 10
     foo = 1; // 할당문에서 할당 단계 실행
     console.log(foo); // 1
     ```
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f3a5e44-ef14-4ca6-bdbe-b63b228a2d6d/353f0347-cca2-439b-9965-ab2219efe276/Untitled.png)
+    ![Untitled (11)](https://github.com/user-attachments/assets/3d184a0b-76b2-4661-beea-b2ddfab00e86)
+
   - 전역 객체와 let
     - var키워드로 선언한 전역 변수, 전역 함수, 선언하지 않은 변수에 값을 할당한 암묵적 전역은 전역 객체 window의 프로퍼티가 되며, 참조시 window 생략 가능
     ```jsx
